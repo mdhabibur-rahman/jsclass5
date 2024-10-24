@@ -21,11 +21,26 @@
 
 // alert(`${inputValue} is ${isprime? 'prime':'not prime'} number`);
 
-var day = "riday";
+// var day = "riday";
 
-var expectedGuests = 100 * ((day==='Friday')*1.5 || 1);
-console.log(expectedGuests);
+// var expectedGuests = 100 * ((day==='Friday')*1.5 || 1);
+// console.log(expectedGuests);
 
-var multiplier = day === 'Friday' ? 1.5 : 1;
-var expectedGuests = 100 * multiplier;
-console.log(expectedGuests);
+// var multiplier = day === 'Friday' ? 1.5 : 1;
+// var expectedGuests = 100 * multiplier;
+// console.log(expectedGuests);
+
+
+
+let  r = prompt("ENTER YOUR LETTER:");
+r =r.toUpperCase();
+switch(r){
+    case'A':
+    document.write("v");
+    break;
+    case'B':
+    document.write("v");
+    break;
+    default:
+        document.write("c");
+}
